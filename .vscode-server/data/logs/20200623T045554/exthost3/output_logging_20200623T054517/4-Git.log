@@ -1,0 +1,54 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/vagrant
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 3b1bf59ed94f9f128820168e788dcf73b5181fec
+> git check-ignore -v -z --stdin
+> git remote add origin https://github.com/CAFAVARO/git-github.com-2020-SEMI-DESIX-G1-Carlos_F_Vaccaro_Laboratorio_5_.git
+fatal: remote origin already exists.
+> git checkout -q -b git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git' cannot be created from it
+> git checkout -q -b git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git' cannot be created from it
+> git checkout -q -b git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git' cannot be created from it
+> git remote add sd https://github.com/2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 3b1bf59ed94f9f128820168e788dcf73b5181fec
+> git show :test.js
+> git checkout -q -b https-//github.com/2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_ --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'https-//github.com/2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_' cannot be created from it
+> git remote add sx git@github.com:2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 3b1bf59ed94f9f128820168e788dcf73b5181fec
+> git show :test.js
+> git check-ignore -v -z --stdin
+> git checkout -q -b git-remote-add-origin-git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'git-remote-add-origin-git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git' cannot be created from it
+> git checkout -q -b git-remote-add-origin-git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'git-remote-add-origin-git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git' cannot be created from it
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 3b1bf59ed94f9f128820168e788dcf73b5181fec
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 3b1bf59ed94f9f128820168e788dcf73b5181fec
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/vagrant/test.js
+fatal: your current branch 'master' does not have any commits yet
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 3b1bf59ed94f9f128820168e788dcf73b5181fec
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 3b1bf59ed94f9f128820168e788dcf73b5181fec
+> git check-ignore -v -z --stdin
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 3b1bf59ed94f9f128820168e788dcf73b5181fec
+> git remote add origin https://github.com/CAFAVARO/vagrant-.git
+fatal: remote origin already exists.

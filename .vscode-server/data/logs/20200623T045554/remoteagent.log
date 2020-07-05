@@ -1,0 +1,104 @@
+[2020-06-23 04:55:54.193] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2020-06-23 04:55:54.193] [remoteagent] [info] Extension host agent started.
+[2020-06-23 04:55:54.647] [remoteagent] [info] [127.0.0.1][13f9a68c][ExtensionHostConnection] New connection established.
+[2020-06-23 04:55:54.675] [remoteagent] [info] [127.0.0.1][3590680a][ManagementConnection] New connection established.
+[2020-06-23 04:55:54.955] [remoteagent] [info] [127.0.0.1][13f9a68c][ExtensionHostConnection] <1859> Launched Extension Host Process.
+[2020-06-23 04:57:23.545] [remoteagent] [info] [127.0.0.1][3590680a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-06-23 04:57:24.609] [remoteagent] [info] [127.0.0.1][13f9a68c][ExtensionHostConnection] <1859> Extension Host Process exited with code: 0, signal: null.
+[2020-06-23 04:57:24.610] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-06-23 04:57:28.639] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2020-06-23 04:57:28.640] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-06-23 04:57:28.855] [remoteagent] [info] [127.0.0.1][5716a6d8][ExtensionHostConnection] New connection established.
+[2020-06-23 04:57:28.865] [remoteagent] [info] [127.0.0.1][5716a6d8][ExtensionHostConnection] <2048> Launched Extension Host Process.
+[2020-06-23 04:57:28.891] [remoteagent] [info] [127.0.0.1][a6d72b03][ManagementConnection] New connection established.
+[2020-06-23 05:02:28.643] [remoteagent] [info] New EH opened, aborting shutdown
+[2020-06-23 05:43:17.597] [remoteagent] [info] [127.0.0.1][a6d72b03][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-06-23 05:43:18.676] [remoteagent] [info] [127.0.0.1][5716a6d8][ExtensionHostConnection] <2048> Extension Host Process exited with code: 0, signal: null.
+[2020-06-23 05:43:18.676] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-06-23 05:45:11.220] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2020-06-23 05:45:11.220] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-06-23 05:45:11.408] [remoteagent] [info] [127.0.0.1][3e7644d9][ManagementConnection] New connection established.
+[2020-06-23 05:45:11.411] [remoteagent] [info] [127.0.0.1][b4fc05c9][ExtensionHostConnection] New connection established.
+[2020-06-23 05:45:11.421] [remoteagent] [info] [127.0.0.1][b4fc05c9][ExtensionHostConnection] <2759> Launched Extension Host Process.
+[2020-06-23 05:50:11.228] [remoteagent] [info] New EH opened, aborting shutdown
+[2020-06-23 06:00:53.473] [remoteagent] [info] [127.0.0.1][398a62e8][ManagementConnection] New connection established.
+[2020-06-23 06:00:53.483] [remoteagent] [info] [127.0.0.1][819d91c9][ExtensionHostConnection] New connection established.
+[2020-06-23 06:00:53.490] [remoteagent] [info] [127.0.0.1][819d91c9][ExtensionHostConnection] <3182> Launched Extension Host Process.
+[2020-06-23 06:01:12.432] [remoteagent] [info] [127.0.0.1][398a62e8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-06-23 06:01:13.471] [remoteagent] [info] [127.0.0.1][819d91c9][ExtensionHostConnection] <3182> Extension Host Process exited with code: 0, signal: null.
+[2020-06-23 06:01:36.804] [remoteagent] [info] [127.0.0.1][8b1063fa][ManagementConnection] New connection established.
+[2020-06-23 06:01:36.808] [remoteagent] [info] [127.0.0.1][7c7081fe][ExtensionHostConnection] New connection established.
+[2020-06-23 06:01:36.817] [remoteagent] [info] [127.0.0.1][7c7081fe][ExtensionHostConnection] <3365> Launched Extension Host Process.
+[2020-06-23 06:08:16.940] [remoteagent] [info] Uninstalling extension: donjayamanne.githistory
+[2020-06-23 06:08:16.943] [remoteagent] [error] Failed to uninstall extension: donjayamanne.githistory Cannot uninstall extension 'Git History'. Extension 'Git Extension Pack' depends on this.
+[2020-06-23 06:08:22.805] [remoteagent] [info] Uninstalling extension: donjayamanne.githistory
+[2020-06-23 06:08:22.809] [remoteagent] [error] Failed to uninstall extension: donjayamanne.githistory Cannot uninstall extension 'Git History'. Extension 'Git Extension Pack' depends on this.
+[2020-06-23 06:08:33.133] [remoteagent] [info] Uninstalling extension: donjayamanne.githistory
+[2020-06-23 06:08:33.150] [remoteagent] [error] Failed to uninstall extension: donjayamanne.githistory Cannot uninstall extension 'Git History'. Extension 'Git Extension Pack' depends on this.
+[2020-06-23 06:08:38.333] [remoteagent] [info] Uninstalling extension: eamodio.gitlens
+[2020-06-23 06:08:38.335] [remoteagent] [error] Failed to uninstall extension: eamodio.gitlens Cannot uninstall extension 'GitLens — Git supercharged'. Extension 'Git Extension Pack' depends on this.
+[2020-06-23 06:08:41.144] [remoteagent] [info] Uninstalling extension: eamodio.gitlens
+[2020-06-23 06:08:41.144] [remoteagent] [error] Failed to uninstall extension: eamodio.gitlens Cannot uninstall extension 'GitLens — Git supercharged'. Extension 'Git Extension Pack' depends on this.
+[2020-06-23 06:08:41.457] [remoteagent] [info] Uninstalling extension: eamodio.gitlens
+[2020-06-23 06:08:41.457] [remoteagent] [error] Failed to uninstall extension: eamodio.gitlens Cannot uninstall extension 'GitLens — Git supercharged'. Extension 'Git Extension Pack' depends on this.
+[2020-06-23 06:08:57.820] [remoteagent] [info] Uninstalling extension: eamodio.gitlens
+[2020-06-23 06:08:57.821] [remoteagent] [error] Failed to uninstall extension: eamodio.gitlens Cannot uninstall extension 'GitLens — Git supercharged'. Extension 'Git Extension Pack' depends on this.
+[2020-06-23 06:09:19.737] [remoteagent] [info] Uninstalling extension: donjayamanne.git-extension-pack
+[2020-06-23 06:09:19.768] [remoteagent] [info] Successfully uninstalled extension: donjayamanne.git-extension-pack
+[2020-06-23 06:09:24.613] [remoteagent] [info] [127.0.0.1][3e7644d9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-06-23 06:09:25.850] [remoteagent] [info] [127.0.0.1][b4fc05c9][ExtensionHostConnection] <2759> Extension Host Process exited with code: 0, signal: null.
+[2020-06-23 06:09:31.201] [remoteagent] [info] [127.0.0.1][a4b48e37][ManagementConnection] New connection established.
+[2020-06-23 06:09:31.204] [remoteagent] [info] [127.0.0.1][de5ec6b6][ExtensionHostConnection] New connection established.
+[2020-06-23 06:09:31.218] [remoteagent] [info] [127.0.0.1][de5ec6b6][ExtensionHostConnection] <3642> Launched Extension Host Process.
+[2020-06-23 06:36:11.701] [remoteagent] [info] [127.0.0.1][a4b48e37][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-06-23 06:36:12.785] [remoteagent] [info] [127.0.0.1][de5ec6b6][ExtensionHostConnection] <3642> Extension Host Process exited with code: 0, signal: null.
+[2020-06-23 06:36:42.640] [remoteagent] [info] [127.0.0.1][8b1063fa][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-06-23 06:36:43.689] [remoteagent] [info] [127.0.0.1][7c7081fe][ExtensionHostConnection] <3365> Extension Host Process exited with code: 0, signal: null.
+[2020-06-23 06:36:43.689] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-06-23 06:36:47.505] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2020-06-23 06:36:47.505] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-06-23 06:36:47.674] [remoteagent] [info] [127.0.0.1][d6473f5c][ExtensionHostConnection] New connection established.
+[2020-06-23 06:36:47.681] [remoteagent] [info] [127.0.0.1][d6473f5c][ExtensionHostConnection] <4267> Launched Extension Host Process.
+[2020-06-23 06:36:47.708] [remoteagent] [info] [127.0.0.1][9eb88470][ManagementConnection] New connection established.
+[2020-06-23 06:41:47.510] [remoteagent] [info] New EH opened, aborting shutdown
+[2020-06-23 07:14:55.174] [remoteagent] [info] [127.0.0.1][9eb88470][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-06-23 07:14:56.305] [remoteagent] [info] [127.0.0.1][d6473f5c][ExtensionHostConnection] <4267> Extension Host Process exited with code: 0, signal: null.
+[2020-06-23 07:14:56.306] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-06-23 07:15:07.971] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2020-06-23 07:15:07.971] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-06-23 07:15:08.092] [remoteagent] [info] [127.0.0.1][7995777f][ExtensionHostConnection] New connection established.
+[2020-06-23 07:15:08.099] [remoteagent] [info] [127.0.0.1][7995777f][ExtensionHostConnection] <4961> Launched Extension Host Process.
+[2020-06-23 07:15:08.132] [remoteagent] [info] [127.0.0.1][98fb6839][ManagementConnection] New connection established.
+[2020-06-23 07:20:07.972] [remoteagent] [info] New EH opened, aborting shutdown
+[2020-06-23 07:40:39.672] [remoteagent] [info] [127.0.0.1][98fb6839][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-06-23 07:40:40.746] [remoteagent] [info] [127.0.0.1][7995777f][ExtensionHostConnection] <4961> Extension Host Process exited with code: 0, signal: null.
+[2020-06-23 07:40:40.746] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-06-23 07:42:03.396] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2020-06-23 07:42:03.396] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-06-23 07:42:03.674] [remoteagent] [info] [127.0.0.1][08cd7349][ExtensionHostConnection] New connection established.
+[2020-06-23 07:42:03.675] [remoteagent] [info] [127.0.0.1][7fae80b3][ManagementConnection] New connection established.
+[2020-06-23 07:42:03.682] [remoteagent] [info] [127.0.0.1][08cd7349][ExtensionHostConnection] <6003> Launched Extension Host Process.
+[2020-06-23 07:43:35.139] [remoteagent] [info] Installing extension: benjaminadk.emojis4git
+[2020-06-23 07:43:36.221] [remoteagent] [info] Downloaded extension: benjaminadk.emojis4git /tmp/fa411f81-6832-4a50-82fd-6448afc00062
+[2020-06-23 07:43:36.276] [remoteagent] [info] Extracted extension to /home/vagrant/.vscode-server/extensions/.benjaminadk.emojis4git-2.1.2: benjaminadk.emojis4git
+[2020-06-23 07:43:36.277] [remoteagent] [info] Renamed to /home/vagrant/.vscode-server/extensions/benjaminadk.emojis4git-2.1.2
+[2020-06-23 07:43:36.279] [remoteagent] [info] Installation completed. benjaminadk.emojis4git
+[2020-06-23 07:43:36.285] [remoteagent] [info] Extensions installed successfully: benjaminadk.emojis4git
+[2020-06-23 07:43:40.873] [remoteagent] [info] [127.0.0.1][7fae80b3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-06-23 07:43:41.947] [remoteagent] [info] [127.0.0.1][08cd7349][ExtensionHostConnection] <6003> Extension Host Process exited with code: 0, signal: null.
+[2020-06-23 07:43:41.947] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-06-23 07:43:41.947] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-06-23 07:43:45.940] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2020-06-23 07:43:45.940] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-06-23 07:43:46.094] [remoteagent] [info] [127.0.0.1][28325f9e][ManagementConnection] New connection established.
+[2020-06-23 07:43:46.095] [remoteagent] [info] [127.0.0.1][116eba0c][ExtensionHostConnection] New connection established.
+[2020-06-23 07:43:46.105] [remoteagent] [info] [127.0.0.1][116eba0c][ExtensionHostConnection] <6262> Launched Extension Host Process.

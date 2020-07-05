@@ -1,0 +1,77 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/vagrant
+> git fetch
+> git status -z -u
+> git check-ignore -v -z --stdin
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 3b1bf59ed94f9f128820168e788dcf73b5181fec
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 3b1bf59ed94f9f128820168e788dcf73b5181fec
+> git show :test.js
+> git remote add origin https://github.com/CAFAVARO/2020-SEMI-DESIX-G1-Carlos_F_Vaccaro_Laboratorio5.git
+fatal: remote origin already exists.
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 3b1bf59ed94f9f128820168e788dcf73b5181fec
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 3b1bf59ed94f9f128820168e788dcf73b5181fec
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 3b1bf59ed94f9f128820168e788dcf73b5181fec
+> git show :test.js
+> git checkout -q -b git@github.com-CAFAVARO/2020-SEMI-DESIX-G1-Carlos_F_Vaccaro_Laboratorio5.git --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'git@github.com-CAFAVARO/2020-SEMI-DESIX-G1-Carlos_F_Vaccaro_Laboratorio5.git' cannot be created from it
+> git remote add Lab-5 https://github.com/CAFAVARO/2020-SEMI-DESIX-G1-Carlos_F_Vaccaro_Laboratorio5.git
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 3b1bf59ed94f9f128820168e788dcf73b5181fec
+> git show :test.js
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git show :.gitignore
+> git ls-files --stage -- /home/vagrant/.gitignore
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :.gitignore
+> git ls-files --stage -- /home/vagrant/.gitignore
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 3b1bf59ed94f9f128820168e788dcf73b5181fec
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/vagrant/test.js
+fatal: your current branch 'master' does not have any commits yet
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git checkout -q -b https-//github.com/2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5.git --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'https-//github.com/2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5.git' cannot be created from it
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin

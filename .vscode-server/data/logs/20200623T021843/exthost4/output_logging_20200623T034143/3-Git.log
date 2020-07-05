@@ -1,0 +1,45 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/vagrant
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /home/vagrant/test.js
+> git show :test.js
+> git remote add https-//github.com/2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5.git https://github.com/2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5.git
+fatal: 'https-//github.com/2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5.git' is not a valid remote name
+git.getSCMResource.uri file:///home/vagrant/test.js
+repo root /home/vagrant
+git.getSCMResource.uri file:///home/vagrant/test.js
+repo root /home/vagrant
+git.getSCMResource.uri file:///home/vagrant/test.js
+repo root /home/vagrant
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /home/vagrant/test.js
+> git show :test.js
+> git remote add origin https://github.com/CAFAVARO/vagrant.git
+fatal: remote origin already exists.
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 4dbdc58016bfc40067c6bea8ea53bddfe8663c4f
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 4dbdc58016bfc40067c6bea8ea53bddfe8663c4f
+> git show :test.js
+> git remote add https-//github.com/2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5.git git remote add origin https://github.com/2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5.git
+fatal: 'https-//github.com/2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5.git' is not a valid remote name
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 4dbdc58016bfc40067c6bea8ea53bddfe8663c4f
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 4dbdc58016bfc40067c6bea8ea53bddfe8663c4f
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 4dbdc58016bfc40067c6bea8ea53bddfe8663c4f
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 4dbdc58016bfc40067c6bea8ea53bddfe8663c4f
+> git show :test.js

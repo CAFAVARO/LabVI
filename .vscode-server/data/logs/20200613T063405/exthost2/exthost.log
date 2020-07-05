@@ -1,0 +1,61 @@
+[2020-06-13 06:36:29.827] [exthost] [info] extension host started
+[2020-06-13 06:36:29.989] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-06-13 06:36:29.990] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/debug-auto-launch/dist/extension
+[2020-06-13 06:36:30.011] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-06-13 06:36:30.011] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/emmet/dist/extension
+[2020-06-13 06:36:30.071] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-06-13 06:36:30.072] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/git/dist/main
+[2020-06-13 06:36:30.168] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-06-13 06:36:30.168] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/github-authentication/dist/extension.js
+[2020-06-13 06:36:30.195] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-06-13 06:36:30.195] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/merge-conflict/dist/extension
+[2020-06-13 06:36:30.200] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-06-13 06:36:30.201] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/search-result/dist/extension.js
+[2020-06-13 06:36:30.203] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-06-13 06:36:30.203] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/vscode-account/dist/extension.js
+[2020-06-13 06:36:30.246] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2020-06-13 06:36:30.247] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/npm/dist/main
+[2020-06-13 06:36:30.424] [exthost] [info] eager extensions activated
+[2020-06-13 06:43:00.979] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:javascript"}
+[2020-06-13 06:43:00.980] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/typescript-language-features/dist/extension
+[2020-06-13 06:54:08.354] [exthost] [info] [vscode.typescript-language-features] UNSAVE result from 'resolveCompletionItem', extension SHOULD NOT change any of: additionalTextEdits, or command
+[2020-06-13 06:58:07.180] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2020-06-13 06:58:07.181] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/extension-editing/dist/extension
+[2020-06-13 06:59:07.445] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-06-13 06:59:07.450] [exthost] [error] Error: <syntax> TypeScript Server Error (3.8.3)
+Debug Failure. False expression: Expected line to be non-zero
+Error: Debug Failure. False expression: Expected line to be non-zero
+    at failIfInvalidLocation (/home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/node_modules/typescript/lib/tsserver.js:138899:22)
+    at ScriptInfo.positionToLineOffset (/home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/node_modules/typescript/lib/tsserver.js:138872:17)
+    at toProtocolTextSpan (/home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/node_modules/typescript/lib/tsserver.js:146077:35)
+    at /home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/node_modules/typescript/lib/tsserver.js:145608:68
+    at Array.map (<anonymous>)
+    at IOSession.Session.toLocationNavigationTree (/home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/node_modules/typescript/lib/tsserver.js:145608:39)
+    at IOSession.Session.getNavigationTree (/home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/node_modules/typescript/lib/tsserver.js:145619:32)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (/home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/node_modules/typescript/lib/tsserver.js:144481:61)
+    at /home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/node_modules/typescript/lib/tsserver.js:146003:88
+    at IOSession.Session.executeWithRequestId (/home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/node_modules/typescript/lib/tsserver.js:145994:28)
+    at IOSession.Session.executeCommand (/home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/node_modules/typescript/lib/tsserver.js:146003:33)
+    at IOSession.Session.onMessage (/home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/node_modules/typescript/lib/tsserver.js:146027:35)
+    at Interface.<anonymous> (/home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/node_modules/typescript/lib/tsserver.js:147342:27)
+    at Interface.emit (events.js:200:13)
+    at Interface._onLine (readline.js:314:10)
+    at Interface._normalWrite (readline.js:459:12)
+    at Socket.ondata (readline.js:170:10)
+    at Socket.emit (events.js:200:13)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/typescript-language-features/dist/extension.js:1:52387)
+	at e.dispatchResponse (/home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/typescript-language-features/dist/extension.js:1:222307)
+	at e.dispatchMessage (/home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/typescript-language-features/dist/extension.js:1:221225)
+	at /home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/typescript-language-features/dist/extension.js:1:220701
+	at e.fire (/home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/out/vs/server/remoteExtensionHostProcess.js:46:67)
+	at t.Reader.onLengthData (/home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/typescript-language-features/dist/extension.js:1:229363)
+	at Socket.<anonymous> (/home/vagrant/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/typescript-language-features/dist/extension.js:1:229011)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)

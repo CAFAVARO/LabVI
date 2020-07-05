@@ -1,0 +1,32 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/vagrant
+> git fetch
+> git status -z -u
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git check-ignore -v -z --stdin
+> git cat-file -s 3b1bf59ed94f9f128820168e788dcf73b5181fec
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 3b1bf59ed94f9f128820168e788dcf73b5181fec
+> git show :test.js
+> git remote add origin https://github.com/CAFAVARO/vagrant6.git
+fatal: remote origin already exists.
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 3b1bf59ed94f9f128820168e788dcf73b5181fec
+> git show :test.js
+> git remote add Carlos_F_Vaccaro_Laboratorio5.git git@github.com:2020-SEMI-DESIX-G1
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 3b1bf59ed94f9f128820168e788dcf73b5181fec
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 3b1bf59ed94f9f128820168e788dcf73b5181fec
+> git show :test.js

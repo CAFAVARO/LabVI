@@ -1,0 +1,122 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/vagrant
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+> git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'git@github.com:CAFAVARO/DSIXLABV.git'
+> git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+> git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'git@github.com:CAFAVARO/DSIXLABV.git'
+> git checkout -q -b https-//github.com/2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5.git --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'https-//github.com/2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5.git' cannot be created from it
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+> git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'git@github.com:CAFAVARO/DSIXLABV.git'
+> git check-ignore -v -z --stdin
+> git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+> git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'git@github.com:CAFAVARO/DSIXLABV.git'
+> git check-ignore -v -z --stdin
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git show :test.js
+> git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+> git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'git@github.com:CAFAVARO/DSIXLABV.git'
+> git commit --quiet --allow-empty-message --file -
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'vagrant@ubuntu-bionic.(none)')
+> git config --get-all user.name
+> git config --get-all user.email
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git check-ignore -v -z --stdin
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+> git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'git@github.com:CAFAVARO/DSIXLABV.git'
+> git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+> git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'git@github.com:CAFAVARO/DSIXLABV.git'

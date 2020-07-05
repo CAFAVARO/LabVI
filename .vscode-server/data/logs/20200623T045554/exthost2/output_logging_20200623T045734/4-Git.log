@@ -1,0 +1,195 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/vagrant
+> git status -z -u
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 4dbdc58016bfc40067c6bea8ea53bddfe8663c4f
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git checkout -q -b git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git' cannot be created from it
+> git checkout -q -b git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git' cannot be created from it
+> git checkout -q -b git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git' cannot be created from it
+> git checkout -q -b git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git' cannot be created from it
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/vagrant/test.js
+fatal: your current branch 'master' does not have any commits yet
+> git add -A -- .
+warning: CRLF will be replaced by LF in .vscode-server/extensions/ziyasal.vscode-open-in-github-1.3.6/.all-contributorsrc.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in .vscode-server/extensions/ziyasal.vscode-open-in-github-1.3.6/.editorconfig.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in .vscode-server/extensions/ziyasal.vscode-open-in-github-1.3.6/.gitattributes.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in .vscode-server/extensions/ziyasal.vscode-open-in-github-1.3.6/.travis.yml.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in .vscode-server/extensions/ziyasal.vscode-open-in-github-1.3.6/LICENSE.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in .vscode-server/extensions/ziyasal.vscode-open-in-github-1.3.6/README.md.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in .vscode-server/extensions/ziyasal.vscode-open-in-github-1.3.6/images/icon.svg.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in .vscode-server/extensions/ziyasal.vscode-open-in-github-1.3.6/jsconfig.json.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in .vscode-server/extensions/ziyasal.vscode-open-in-github-1.3.6/node_modules/open/.npmignore.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in .vscode-server/extensions/ziyasal.vscode-open-in-github-1.3.6/node_modules/open/LICENSE.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in .vscode-server/extensions/ziyasal.vscode-open-in-github-1.3.6/node_modules/open/lib/open.js.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in .vscode-server/extensions/ziyasal.vscode-open-in-github-1.3.6/src/extension.js.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in .vscode-server/extensions/ziyasal.vscode-open-in-github-1.3.6/src/gitProvider.js.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in .vscode-server/extensions/ziyasal.vscode-open-in-github-1.3.6/testScript.js.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in .vscode-server/extensions/ziyasal.vscode-open-in-github-1.3.6/tsd.json.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in .vscode-server/extensions/ziyasal.vscode-open-in-github-1.3.6/yarn.lock.
+The file will have its original line endings in your working directory.
+> git commit --quiet --allow-empty-message --file -
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'vagrant@ubuntu-bionic.(none)')
+> git config --get-all user.name
+> git config --get-all user.email
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 3b1bf59ed94f9f128820168e788dcf73b5181fec
+> git show :test.js
+> git checkout -q -b git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git' cannot be created from it
+> git checkout -q -b git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git' cannot be created from it
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git commit --quiet --allow-empty-message --file -
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'vagrant@ubuntu-bionic.(none)')
+> git config --get-all user.name
+> git config --get-all user.email
+> git remote add https-//github.com/2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_ git@github.com:2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git
+fatal: 'https-//github.com/2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_' is not a valid remote name
+> git remote add Remot https://github.com/2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 3b1bf59ed94f9f128820168e788dcf73b5181fec
+> git show :test.js
+> git checkout -q -b git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git' cannot be created from it
+> git checkout -q -b git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git' cannot be created from it
+> git check-ignore -v -z --stdin
+> git add -A -- .
+> git commit --quiet --allow-empty-message --file -
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'vagrant@ubuntu-bionic.(none)')
+> git config --get-all user.name
+> git config --get-all user.email
+> git commit --quiet --allow-empty-message --file -
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'vagrant@ubuntu-bionic.(none)')
+> git config --get-all user.name
+> git config --get-all user.email
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 3b1bf59ed94f9f128820168e788dcf73b5181fec
+> git show HEAD:.bash_history
+> git ls-tree -l HEAD -- /home/vagrant/.bash_history
+fatal: Not a valid object name HEAD
+> git show HEAD:.bash_logout
+> git ls-tree -l HEAD -- /home/vagrant/.bash_logout
+fatal: Not a valid object name HEAD
+> git show HEAD:.cache/motd.legal-displayed
+> git ls-tree -l HEAD -- /home/vagrant/.cache/motd.legal-displayed
+fatal: Not a valid object name HEAD
+> git show HEAD:.cache/typescript/3.8/package.json
+> git ls-tree -l HEAD -- /home/vagrant/.cache/typescript/3.8/package.json
+fatal: Not a valid object name HEAD
+> git check-ignore -v -z --stdin
+> git show HEAD:.cache/typescript/3.8/node_modules/@types/body-parser/index.d.ts
+> git ls-tree -l HEAD -- /home/vagrant/.cache/typescript/3.8/node_modules/@types/body-parser/index.d.ts
+fatal: Not a valid object name HEAD
+> git check-ignore -v -z --stdin
+> git commit --quiet --allow-empty-message --file -
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'vagrant@ubuntu-bionic.(none)')
+> git config --get-all user.name
+> git config --get-all user.email
+> git ls-tree -l HEAD -- /home/vagrant/.cache/typescript/3.8/node_modules/@types/body-parser/index.d.ts
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/vagrant/.cache/typescript/3.8/node_modules/@types/body-parser/index.d.ts
+fatal: Not a valid object name HEAD
+> git show HEAD:.cache/typescript/3.8/node_modules/@types/body-parser/index.d.ts
+> git show HEAD:.cache/typescript/3.8/node_modules/@types/body-parser/index.d.ts
+> git show :test.js
+> git ls-files --stage -- /home/vagrant/test.js
+> git cat-file -s 3b1bf59ed94f9f128820168e788dcf73b5181fec
+> git checkout -q -b CFVaccaro --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'CFVaccaro' cannot be created from it
+> git checkout -q -b sd --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'sd' cannot be created from it
+> git checkout -q -b git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'git@github.com-2020-SEMI-DESIX-G1/Carlos_F_Vaccaro_Laboratorio_5_.git' cannot be created from it
